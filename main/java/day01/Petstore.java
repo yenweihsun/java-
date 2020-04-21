@@ -8,6 +8,7 @@ import java.text.ParseException;
 public class Petstore {
     public static void main(String[] args)throws ParseException{
         Puppy p1 = new Puppy();
+        //直接呼叫同package的class puppy 的name和birth 還有年齡
         p1.name = "拉不拉多";
         p1.birth = "2018/04/21";
         
